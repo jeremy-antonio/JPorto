@@ -1,3 +1,17 @@
+// For Portofolio
+import profile from "./profil-jeremy.png";
+import linkedin from "./linkedin.png";
+import github from "./github.png";
+import telegram from "./telegram.png";
+import discord from "./discord.png";
+import youtube from "./youtube.png";
+import react from "./RC.png";
+import javascript from "./JS.png";
+import node from "./ND.png";
+import express from "./EX.png";
+import tailwind from "./TW.png";
+
+// From template
 import airbnb from "./airbnb.png";
 import bill from "./bill.png";
 import binance from "./binance.png";
@@ -16,15 +30,26 @@ import google from "./google.svg";
 import apple from "./apple.svg";
 import arrowUp from "./arrow-up.svg";
 import discount from "./Discount.svg";
-import facebook from "./facebook.svg";
-import instagram from "./instagram.svg";
-import linkedin from "./linkedin.svg";
-import twitter from "./twitter.svg";
+// import facebook from "./facebook.svg";
+// import instagram from "./instagram.svg";
+// import linkedin from "./linkedin.svg";
+// import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 
 export {
+  profile,
+  discord,
+  telegram,
+  github,
+  youtube,
+  linkedin,
+  react,
+  javascript,
+  node,
+  express,
+  tailwind,
   airbnb,
   bill,
   binance,
@@ -43,10 +68,6 @@ export {
   apple,
   arrowUp,
   discount,
-  facebook,
-  instagram,
-  linkedin,
-  twitter,
   people01,
   people02,
   people03,
