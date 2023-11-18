@@ -1,4 +1,4 @@
-import { people01, people02, people03, linkedin, airbnb, binance, coinbase, dropbox, synrgy, ulm, stie } from "../assets";
+import { people01, people02, people03, linkedin, gmail, airbnb, binance, coinbase, dropbox, synrgy, ulm, stie } from "../assets";
 
 export const navLinks = [
   {
@@ -162,15 +162,15 @@ export const socialMedia = [
   //   icon: facebook,
   //   link: "https://www.facebook.com/",
   // },
-  // {
-  //   id: "social-media-3",
-  //   icon: twitter,
-  //   link: "https://www.twitter.com/",
-  // },
+  {
+    id: "social-media-3",
+    icon: gmail,
+    link: "https://www.twitter.com/",
+  },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/jeremy-ant",
   },
 ];
 

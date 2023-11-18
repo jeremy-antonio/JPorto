@@ -14,6 +14,8 @@ import synrgy from "./synrgy.png";
 import ulm from "./ulm.png";
 import stie from "./stie.png";
 import fe from "./fe.png";
+import footerimg from "./footer-j.png";
+import gmail from "./gmail.png";
 
 // From template
 import airbnb from "./airbnb.png";
@@ -58,6 +60,8 @@ export {
   ulm,
   stie,
   fe,
+  footerimg,
+  gmail,
   airbnb,
   bill,
   binance,
