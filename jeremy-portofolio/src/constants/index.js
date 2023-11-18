@@ -1,4 +1,4 @@
-import { people01, people02, people03, linkedin, airbnb, binance, coinbase, dropbox, send, shield, star } from "../assets";
+import { people01, people02, people03, linkedin, airbnb, binance, coinbase, dropbox, synrgy, ulm, stie } from "../assets";
 
 export const navLinks = [
   {
@@ -19,24 +19,27 @@ export const navLinks = [
   },
 ];
 
-export const features = [
+export const educations = [
   {
-    id: "feature-1",
-    icon: star,
-    title: "Rewards",
-    content: "The best credit cards offer some tantalizing combinations of promotions and prizes",
+    id: "edu-1",
+    icon: synrgy,
+    title: "SYNRGY Academy",
+    subtitle: "Fullstack Web Development",
+    content: "Scholarship Online Bootcamp",
   },
   {
-    id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
-    content: "We take proactive steps make sure your information and transactions are secure.",
+    id: "edu-2",
+    icon: ulm,
+    title: "Universitas Lambung Mangkurat",
+    subtitle: "Bachelor of Information Technology",
+    content: "GPA 3.52 out of 4.00",
   },
   {
-    id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
-    content: "A balance transfer credit card can save you a lot of money in interest charges.",
+    id: "edu-3",
+    icon: stie,
+    title: "STIE Indonesia Banjarmasin",
+    subtitle: "Bachelor of Accounting",
+    content: "GPA 3.52 out of 4.00",
   },
 ];
 

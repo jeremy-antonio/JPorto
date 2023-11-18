@@ -10,6 +10,10 @@ import javascript from "./JS.png";
 import node from "./ND.png";
 import express from "./EX.png";
 import tailwind from "./TW.png";
+import synrgy from "./synrgy.png";
+import ulm from "./ulm.png";
+import stie from "./stie.png";
+import fe from "./fe.png";
 
 // From template
 import airbnb from "./airbnb.png";
@@ -50,6 +54,10 @@ export {
   node,
   express,
   tailwind,
+  synrgy,
+  ulm,
+  stie,
+  fe,
   airbnb,
   bill,
   binance,

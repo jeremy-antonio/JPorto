@@ -1,15 +1,37 @@
 import styles from "../style";
-import Button from "./Button";
+import { fe } from "../assets";
+// import Button from "./Button";
 
 const Career = () => (
-  <section className={`${styles.flexCenter} ${styles.padding} sm:flex-row flex-col rounded-[20px] box-shadow bg-bg_misc `}>
-    <div className="flex-1 flex flex-col ">
-      <h2 className={styles.heading2}>Lets try our service now!</h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Everything you need to accept card payment</p>
+  <section className={`${styles.flexStart} flex-col `}>
+    <div className="flex flex-col mb-14">
+      <h2 className={styles.heading2}>My Expertise</h2>
     </div>
-
-    <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-      <Button />
+    <div className="flex flex-wrap justify-around w-full gap-10">
+      <div className="flex-1 bg-bg_misc  w-[30%] rounded-lg flex flex-col items-center px-7">
+        <img src={fe} alt="" className="w-[75px] mt-[-35px]" />
+        <div className="font-mont text-2xl font-semibold mt-5">Front-End Development</div>
+        <div className="font-ibm text-lg mt-5 pb-5">
+          Proficient in crafting responsive and user-friendly interfaces using the latest web technologies, including HTML5, CSS3, and JavaScript. Experienced in leveraging modern CSS frameworks, such as Tailwind CSS and Bootstrap 5. Adept
+          at utilizing JavaScript libraries and frameworks, with a strong focus on React
+        </div>
+      </div>
+      <div className="flex-1 bg-bg_misc  w-[30%] rounded-lg flex flex-col items-center px-7">
+        <img src={fe} alt="" className="w-[75px] mt-[-35px]" />
+        <div className="font-mont text-2xl font-semibold mt-5">Back-End Development</div>
+        <div className="font-ibm text-lg mt-5 pb-5">
+          I am actively expanding my knowledge in Node.js and enhancing my skills in building robust server-side applications using the Express.js framework. In addition to coding, I am proficient in utilizing tools like Postman and Swagger
+          for API development and testing, ensuring the seamless integration of RESTful APIs
+        </div>
+      </div>
+      <div className="flex-1 bg-bg_misc  w-[30%] rounded-lg flex flex-col items-center px-7">
+        <img src={fe} alt="" className="w-[75px] mt-[-35px]" />
+        <div className="font-mont text-2xl font-semibold mt-5">Project Management</div>
+        <div className="font-ibm text-lg mt-5 pb-5">
+          Proficient in crafting responsive and user-friendly interfaces using the latest web technologies, including HTML5, CSS3, and JavaScript. Experienced in leveraging modern CSS frameworks, such as Tailwind CSS and Bootstrap 5. Adept
+          at utilizing JavaScript libraries and frameworks, with a strong focus on React
+        </div>
+      </div>
     </div>
   </section>
 );
