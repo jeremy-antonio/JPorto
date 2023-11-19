@@ -5,23 +5,23 @@ import styles from "../style";
 
 const Skill = () => (
   <section className={`${styles.flexCenter} ${styles.padding} flex-row flex-wrap sm:mb-20 mb-6 box-shadow bg-bg_misc z-50 mt-[-63px] gap-10`}>
-    <div className="flex-1 flex  items-center justify-center bg-bg_primary h-[75px] gap-5">
+    <div className="flex-[1] flex  items-center justify-center bg-bg_primary h-[75px] gap-5">
       <img src={react} alt="React" className="h-[40px]" />
       <span className="font-mont font-bold text-4xl text-[#61DAFB]">React</span>
     </div>
-    <div className="flex-1 flex  items-center justify-center bg-bg_primary h-[75px] gap-3">
+    <div className="flex-[1] flex  items-center justify-center bg-bg_primary h-[75px] gap-3">
       <img src={javascript} alt="Javascript" className="h-[40px]" />
       <span className="font-mont font-bold text-2xl text-[#F0DB4F]">Javascript</span>
     </div>
-    <div className="flex-1 flex  items-center justify-center bg-bg_primary h-[75px] gap-5">
+    <div className="flex-[1] flex  items-center justify-center bg-bg_primary h-[75px] gap-5">
       <img src={node} alt="NodeJS" className="h-[40px]" />
       <span className="font-mont font-bold text-2xl">NodeJS</span>
     </div>
-    <div className="flex-1 flex  items-center justify-center bg-bg_primary h-[75px] gap-5">
+    <div className="flex-[1] flex  items-center justify-center bg-bg_primary h-[75px] gap-5">
       <img src={express} alt="Express" className="h-[50px]" />
       <span className="font-mont font-bold text-2xl">ExpressJS</span>
     </div>
-    <div className="flex-1 flex  items-center justify-center bg-bg_primary h-[75px] gap-2">
+    <div className="flex-[1] flex  items-center justify-center bg-bg_primary h-[75px] gap-2">
       <img src={tailwind} alt="Tailwind" className="h-[30px]" />
       <span className="font-mont font-bold text-xl text-[#38BDF8]">TailwindCSS</span>
     </div>

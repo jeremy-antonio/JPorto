@@ -1,25 +1,40 @@
 import styles from "../style";
-import { footerimg } from "../assets";
-import { footerLinks, socialMedia } from "../constants";
+import { footerimg, gmail, github, linkedin } from "../assets";
+// import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
-  <section className={`${styles.flexCenter} sm:pt-10 pt-6 flex-col`}>
-    <div className={`${styles.flexStart} md:flex-row flex-col w-full`}>
-      <div className="flex-[1] flex flex-col justify-start mr-10">
+  <section className={`${styles.flexCenter} sm:py-10 py-6 flex-col `}>
+    <div className={`flex justify-center items-center md:flex-row flex-col w-full sm:items-end`}>
+      <div className="flex-[1] flex flex-col justify-start mr-10 ">
         {/* <img src={logo} alt="hoobank" className="w-[266px] h-[72.14px] object-contain" /> */}
         <h2 className="font-mont text-xl font-bold">Want to Colaborate?</h2>
         <p className={`${styles.paragraph} mt-4`}>
           If you are interested in collaborating or have a project you would like to discuss together, Id be delighted to hear more. Please feel free to reach out to me through any of the following methods:
         </p>
-        <div className="flex w-full flex-1 ">
-          <img src="" alt="" />
-          <p className="font">jerz.antonio10@gmail.com</p>
+        <div className="flex w-full flex-1 items-center gap-x-[16px] mt-4">
+          <img src={gmail} alt="Gmail" className="w-[55px]" />
+          <a href="mailto:jerz.antonio10@gmail.com" target="_blank" rel="noopener noreferrer" className="font-mont text-gold font-semibold">
+            jerz.antonio10@gmail.com
+          </a>
+        </div>
+        <div className="flex w-full flex-1 items-center gap-x-[16px] mt-4">
+          <img src={linkedin} alt="LinkedIn" className="w-[55px]" />
+          <a href="https://www.linkedin.com/in/jeremy-ant/" target="_blank" rel="noopener noreferrer" className="font-mont text-gold font-semibold">
+            Jeremy Antonio
+          </a>
+        </div>
+        <div className="flex w-full flex-1 items-center gap-x-[16px] mt-4">
+          <img src={github} alt="GitHub" className="w-[55px]" />
+          <a href="https://github.com/jeremy-antonio" target="_blank" rel="noopener noreferrer" className="font-mont text-gold font-semibold">
+            jeremy-antonio
+          </a>
         </div>
       </div>
 
-      <div className="flex-[1] flex flex-col justify-center items-center relative">
-        <div className="rounded-full absolute bg-bg_misc w-[425px] h-[425px] right-[120px] z-[1]"></div>
-        <img src={footerimg} alt="Me, Myself, and I" className="w-[50%] relative z-[99]" />
+      <div className="flex-[1] flex flex-col justify-center items-center mt-4 sm:mt-[-200px] ">
+        <div className="bg-bg_misc rounded-full w-[350px] h-[350px] flex items-center justify-center overflow-hidden">
+          <img src={footerimg} alt="Me, Myself, and I" className="w-[75%] pt-5" />
+        </div>
       </div>
       {/* <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
         {footerLinks.map((footerlink) => (
