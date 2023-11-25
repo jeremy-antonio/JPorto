@@ -32,7 +32,7 @@ const Footer = () => (
       </div>
 
       <div className="flex-[1] flex flex-col justify-center items-center mt-4 sm:mt-[-200px] ">
-        <div className="bg-bg_misc rounded-full w-[350px] h-[350px] flex items-center justify-center overflow-hidden">
+        <div className="bg-bg_misc rounded-full w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] flex items-center justify-center overflow-hidden mt-2">
           <img src={footerimg} alt="Me, Myself, and I" className="w-[75%] pt-5" />
         </div>
       </div>

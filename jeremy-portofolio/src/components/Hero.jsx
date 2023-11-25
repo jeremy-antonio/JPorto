@@ -36,9 +36,10 @@ const Hero = () => (
       </div>
     </div>
 
+    {/* Hero Image */}
     <div className={`md:my-0 my-10 relative items-center overflow-hidden`}>
       <img src={profile} alt="Profile Picture" className="w-[100%] h-[100%] relative z-[10] pl-10" />
-      <div className="rounded-full bg-bg_hero w-[90%] h-[100%] top-[190px] right-[60px] absolute z-1"></div>
+      <div className="rounded-full bg-bg_hero w-[90%] h-[100%] top-[50px] right-[15px]  sm:top-[190px] sm:right-[60px] absolute z-1"></div>
     </div>
 
     <div></div>

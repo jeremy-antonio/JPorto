@@ -16,6 +16,10 @@ import stie from "./stie.png";
 import fe from "./fe.png";
 import footerimg from "./footer-j.png";
 import gmail from "./gmail.png";
+import carrental from "./BinarRental.png";
+import sia from "./sia.png";
+import savorwich from "./savorwich.png";
+import placeholder from "./placeholder.jpg";
 
 // From template
 import airbnb from "./airbnb.png";
@@ -62,6 +66,10 @@ export {
   fe,
   footerimg,
   gmail,
+  carrental,
+  sia,
+  savorwich,
+  placeholder,
   airbnb,
   bill,
   binance,
