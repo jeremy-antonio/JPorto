@@ -1,7 +1,10 @@
 // import { feedback } from "../constants";
-import { carrental, placeholder, savorwich, sia } from "../assets";
+// import { carrental, placeholder, savorwich, sia } from "../assets";
 import styles from "../style";
-// import FeedbackCard from "./FeedbackCard";
+import carrental from "../assets/binarrental.png";
+import placeholder from "../assets/placeholder.jpg";
+import savorwich from "../assets/savorwich.png";
+import sia from "../assets/sia.png";
 
 const Project = () => (
   <section id="clients" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}>

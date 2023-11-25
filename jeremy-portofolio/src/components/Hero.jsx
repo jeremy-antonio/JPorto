@@ -1,5 +1,11 @@
 import styles from "../style";
-import { profile, github, telegram, youtube, linkedin, discord } from "../assets";
+// import { profile, github, telegram, youtube, linkedin, discord } from "../assets";
+import profile from "../assets/profil-jeremy.png";
+import github from "../assets/github.png";
+import telegram from "../assets/telegram.png";
+import youtube from "../assets/youtube.png";
+import linkedin from "../assets/linkedin.png";
+import discord from "../assets/discord.png";
 // import GetStarted from "./getstarted";
 
 const Hero = () => (

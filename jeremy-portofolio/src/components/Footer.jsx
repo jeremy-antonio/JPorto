@@ -1,6 +1,9 @@
 import styles from "../style";
-import { footerimg, gmail, github, linkedin } from "../assets";
-// import { footerLinks, socialMedia } from "../constants";
+// import { footerimg, gmail, github, linkedin } from "../assets";
+import footerimg from "../assets/footer-j.png";
+import gmail from "../assets/gmail.png";
+import github from "../assets/github.png";
+import linkedin from "../assets/linkedin.png";
 
 const Footer = () => (
   <section className={`${styles.flexCenter} sm:py-10 py-6 flex-col `}>
