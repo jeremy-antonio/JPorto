@@ -1,12 +1,12 @@
 // import { stats } from "../constants";
 // import Button from "./Button";
-// import { react, javascript, node, express, tailwind } from "../assets";
+import { react, javascript, node, express, tailwind } from "../assets";
 import styles from "../style";
-import react from "../assets/rc.png";
-import javascript from "../assets/js.png";
-import node from "../assets/nd.png";
-import express from "../assets/ex.png";
-import tailwind from "../assets/tw.png";
+// import react from "../assets/rc.png";
+// import javascript from "../assets/js.png";
+// import node from "../assets/nd.png";
+// import express from "../assets/ex.png";
+// import tailwind from "../assets/tw.png";
 
 const Skill = () => (
   <section className={`${styles.flexCenter} ${styles.padding} flex-row flex-wrap sm:mb-20 mb-6 box-shadow bg-bg_misc z-50 mt-[-63px] gap-10`}>
