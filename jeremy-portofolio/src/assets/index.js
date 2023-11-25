@@ -22,7 +22,6 @@ import savorwich from "./savorwich.png";
 import placeholder from "./placeholder.jpg";
 
 // From template
-import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
@@ -57,7 +56,6 @@ export {
   sia,
   savorwich,
   placeholder,
-  dropbox,
   logo,
   quotes,
   robot,
